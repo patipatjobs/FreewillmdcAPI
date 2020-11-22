@@ -13,17 +13,17 @@ var port = '56860';
 const connectionHR = mysql.createConnection({   
     host     : host,
     port     : port,
-    user     : 'fwghr',
-    password : 'fwg@mdc04111',
-    database : 'fwg_hr'
+    user     : '____',
+    password : '____',
+    database : '____'
 });
 
 const connectionHRServices = mysql.createConnection({   
     host     : '52.163.82.249',
     port     : '1178',
-    user     : 'promptadm',
-    password : 'chee#Mai5',
-    database : 'hrservices'
+    user     : '____',
+    password : '____',
+    database : '____'
 });
 
 const dateT = moment().tz('Asia/Bangkok').format("YYYY-MM-DD");

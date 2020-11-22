@@ -46,14 +46,6 @@ var outing = require('./module/hractivity/outing');
 
 app.use('/api/hr/activity/outing', outing);
 
-var abc = require('./module/hractivity/abc');
-
-app.use('/api/abc', abc);
-
-var def = require('./module/hractivity/def');
-
-app.use('/api/def',def);
-
 //////////////////////////// Function Noti //////////////
 
 OutingFCMPush.fcmCron();
@@ -62,7 +54,6 @@ OutingFCMPush.fcmCron();
 
 
 FWGlogs.SycDB.SycDeviceInfoDB();
-
 
 
 //////////////////////////////////////////////////////////

@@ -18,9 +18,9 @@ app.use(bodyParser.json())
     var connection = mysql.createConnection({   
             host     : 'freewillmdc.loginto.me', 
             port     : '56860',
-            user     : 'fwghr',
-            password : 'fwg@mdc04111',
-            database : 'fwg_hr'
+            user     : '____',
+            password : '____',
+            database : '____'
     });
 
 // var connection = mariadb.createConnection({host: '46.51.219.161:56860', user: 'fwghr', password: 'fwg@mdc04111'})

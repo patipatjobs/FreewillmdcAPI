@@ -11,9 +11,9 @@ var router = express.Router();
 var connection = mysql.createConnection({   
     host     : 'freewillmdc.loginto.me', 
     port     : '56860',
-    user     : 'fwglocker',
-    password : 'fwg@1234',
-    database : 'fwg_locker_log'
+    user     : '____',
+    password : '____',
+    database : '____'
 });
 
 const time_at = moment().tz('Asia/Bangkok').format("YYYY-MM-DD HH:mm:ss");
